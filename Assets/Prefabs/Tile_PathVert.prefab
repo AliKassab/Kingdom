@@ -53,11 +53,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2033252790092565197, guid: e1edecace5a37e3418c3e7fd5c4362cf, type: 3}
       propertyPath: m_Name
-      value: Tile_Path
+      value: Tile_PathVert
       objectReference: {fileID: 0}
     - target: {fileID: 2188380712340193790, guid: e1edecace5a37e3418c3e7fd5c4362cf, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: -2432090755550338912, guid: e618ab8e55a3ed942a408f4d1b7f896e, type: 3}
+    - target: {fileID: 4549902405881986516, guid: e1edecace5a37e3418c3e7fd5c4362cf, type: 3}
+      propertyPath: m_text
+      value: (0,0)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8241032615790453073, guid: e1edecace5a37e3418c3e7fd5c4362cf, type: 3}
+      propertyPath: isPlaceable
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1edecace5a37e3418c3e7fd5c4362cf, type: 3}

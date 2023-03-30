@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1623878778015380999}
   - component: {fileID: 8241032615790453073}
+  - component: {fileID: 7666386436665973321}
   m_Layer: 0
   m_Name: Tile_Grass
   m_TagString: Untagged
@@ -46,6 +47,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 595545bb28459684681042ecc28fddf1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Tower: {fileID: 3219458064393657486, guid: 8a965e088bae16643aab3d07ccfd5e2e, type: 3}
+  isPlaceable: 1
+--- !u!65 &7666386436665973321
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033252790092565197}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.047253, y: 0.6522257, z: 10.03708}
+  m_Center: {x: -0.0030727386, y: -0.30477408, z: -0.0055737495}
 --- !u!1 &5206073809314425743
 GameObject:
   m_ObjectHideFlags: 0
@@ -230,7 +246,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: (0,0)
+  m_text: (-3,0)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
