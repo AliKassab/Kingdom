@@ -8,7 +8,7 @@ public class EnemyHeatlh : MonoBehaviour
     [SerializeField] float damage = 1;
     float currentHealth;
     // Start is called before the first frame update
-    void Start()
+    void OnEnable()
     {
         currentHealth = maxHealth;
     }
@@ -18,7 +18,7 @@ public class EnemyHeatlh : MonoBehaviour
         currentHealth -= damage;
         if (currentHealth < 0)
         {
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 }
