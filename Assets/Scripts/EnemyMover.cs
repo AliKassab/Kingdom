@@ -11,12 +11,19 @@ public class EnemyMover : MonoBehaviour
     Vector3 endPosition;
     float travelPercent = 0f;
 
+    Enemy enemy;
+
     // Start is called before the first frame update
     void OnEnable()
     {
         FindPath(); 
         ReturnToStart();
        StartCoroutine(FollowPath());
+    }
+
+    private void Start()
+    {
+        enemy= GetComponent<Enemy>();
     }
 
     void FindPath()
@@ -56,5 +63,6 @@ public class EnemyMover : MonoBehaviour
             }
         }
         gameObject.SetActive(false);
+        enemy.StealGold();
     }
 }
